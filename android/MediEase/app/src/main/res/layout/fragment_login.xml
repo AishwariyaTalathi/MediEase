@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/activity_main1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingBottom="16dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:paddingTop="25dp">
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logo"/>
+
+    <TextView
+        android:id="@+id/textViewNavHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageViewLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:padding="5dp"
+        android:paddingTop="10dp"
+        android:text="Welcome"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editTextEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageViewLogo"
+        android:layout_marginTop="38dp"
+        android:hint="EmailID"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        app:met_floatingLabel="highlight"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/editTextPasswordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextEmailLogin"
+        android:layout_marginTop="10dp"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        app:met_floatingLabel="highlight"/>
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editTextPasswordLogin"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Sign In"
+        android:textColor="@color/white"/>
+
+    <TextView
+        android:id="@+id/textViewSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonSignIn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="SIGN UP"
+        android:textColor="@color/colorPrimary"
+        android:textSize="17sp"/>
+
+    <!--<TextView
+        android:id="@+id/line"
+        style="?android:attr/listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/buttonSignUp"
+        android:layout_marginTop="80dp"
+        android:background="#d3d3d3"
+        android:gravity="center_horizontal"
+        android:paddingTop="20dip"/>-->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/signInFacebook"
+        android:layout_alignEnd="@+id/imageViewLogo"
+        android:layout_marginBottom="14dp"
+        android:gravity="center"
+        android:text="Sign In With"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"/>
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/signInFacebook"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textViewSignUp"
+        android:layout_marginBottom="22dp"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/signInGoogle"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/signInFacebook"
+        android:layout_alignEnd="@+id/textViewNavHeader"
+        android:layout_alignTop="@+id/signInFacebook"/>
+
+</RelativeLayout>

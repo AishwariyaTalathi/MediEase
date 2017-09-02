@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="edu.csulb.mediease.StartActivity">
+
+    <Button
+        android:id="@+id/OCR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="ocr"
+        android:text="OCR"/>
+
+    <Button
+        android:id="@+id/alarms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="alarms"
+        android:text="ALARMS"/>
+
+    <Button
+        android:onClick="login"
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"/>
+</LinearLayout>

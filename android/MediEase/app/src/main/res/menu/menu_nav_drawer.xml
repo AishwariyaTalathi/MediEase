@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navDrawerHome"
+            android:icon="@drawable/ic_action_home"
+            android:title="Home"/>
+        <item
+            android:id="@+id/navDrawerOCR"
+            android:icon="@drawable/ic_action_ocr"
+            android:title="Scan Prescription"/>
+        <item
+            android:id="@+id/navDrawerAlarms"
+            android:icon="@drawable/ic_action_alarm"
+            android:title="Alarms"/>
+        <item
+            android:id="@+id/navDrawerShout"
+            android:icon="@drawable/ic_action_shout"
+            android:title="Shouts"/>
+    </group>
+</menu>

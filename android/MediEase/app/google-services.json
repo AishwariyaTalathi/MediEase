@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "722450195888",
+    "firebase_url": "https://fir-mediease.firebaseio.com",
+    "project_id": "firebase-mediease",
+    "storage_bucket": "firebase-mediease.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722450195888:android:f36e417dbef6e62a",
+        "android_client_info": {
+          "package_name": "edu.csulb.mediease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "722450195888-f641tijsrle3i5qjib4jodb2cv91ev3n.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "722450195888-p2g9fuctqbaahgv5p7ohl9oltvl38ggc.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "722450195888-3nu9ji1k0htnv1jn1qina9to9uporugm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "edu.csulb.mediease",
+            "certificate_hash": "984add46ac526e90473e06d95fd22b18244d89a7"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAHJQI2QhZpJdc0JwmnAejxIPRUfqWnXw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "722450195888-f641tijsrle3i5qjib4jodb2cv91ev3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

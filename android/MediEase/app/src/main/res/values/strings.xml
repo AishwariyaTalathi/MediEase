@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MediEase</string>
+    <string name="facebook_app_id">286348158479261</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_number">Number</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_sign_up">Sign Up</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="APIkey">AIzaSyCvFlu2oLVBhT9x7dEEkURolRrm4MDjqoo</string>
+    <string name="WebKey">AIzaSyDIBE77Ok17o2r8ZjPFkfFpJgJ00zoRy78</string>
+</resources>
